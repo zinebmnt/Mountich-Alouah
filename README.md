@@ -41,8 +41,8 @@ client/
 │   │   └── Classement.js (+ variantes)
 │   ├── App.js
 │   └── index.js
-├── package.json
-└── README.md
+
+└── package.json
 
 serveur/
 ├── app.js                     # Point d'entrée de l'application
