@@ -1,0 +1,34 @@
+.comments-section {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .comments-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 8px;
+  }
+  
+  .comments-list li {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .show-more-btn {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 0.85rem;
+    padding: 4px 0;
+    text-decoration: underline;
+  }
+  .show-more-btn:hover {
+    color: #0056b3;
+  }
+  
+  

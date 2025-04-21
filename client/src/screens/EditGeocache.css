@@ -1,0 +1,68 @@
+/* EditGeocache.css */
+
+.edit-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9fbfd;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .edit-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .edit-form label {
+    font-weight: 600;
+    color: #34495e;
+  }
+  
+  .edit-form input,
+  .edit-form textarea {
+    padding: 10px 14px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+  }
+  
+  .edit-form input:focus,
+  .edit-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .save-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .save-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: #c0392b;
+    background: #fdecea;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  

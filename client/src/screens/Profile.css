@@ -1,0 +1,68 @@
+/* src/screens/Profile.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.profile-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.profile-container p {
+  font-size: 1rem;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  gap: 10px;
+}
+
+.button-group button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 160px;
+}
+
+.button-group button:hover {
+  background-color: #c0392b;
+}
+
+#error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#map-container {
+  margin-top: 25px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 500px;
+}

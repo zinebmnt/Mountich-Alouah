@@ -1,0 +1,118 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  padding-top: 70px;
+}
+
+/* Hero accueil */
+.home-hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #f9fafc, #e3efff);
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 800px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.home-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.home-hero h1 span {
+  color: #007bff;
+}
+
+.home-hero p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cta {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #0056b3;
+}
+.details-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+.details-modal h3 {
+  margin-top: 0;
+}
+
+.details-modal textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  resize: none;
+}
+
+.details-modal button {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.details-modal button:hover {
+  background: #0056b3;
+}
+
+.details-modal .close-btn {
+  background: #dc3545;
+}

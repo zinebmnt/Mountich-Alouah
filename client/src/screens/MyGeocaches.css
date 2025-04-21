@@ -1,0 +1,90 @@
+.mygeocache-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f8f9fc;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .mygeocache-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    color: #212529;
+  }
+  
+  .mygeocache-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mygeocache-item {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .mygeocache-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .geocache-info {
+    flex: 1;
+  }
+  
+  .geocache-info strong {
+    font-size: 1.1rem;
+    color: #343a40;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .geocache-info p {
+    margin: 4px 0;
+    color: #6c757d;
+    font-size: 0.95rem;
+  }
+  
+  .geocache-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .edit-btn {
+    background-color: #007bff;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
