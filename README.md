@@ -1,4 +1,65 @@
 # Mountich-Alouah
+# 🌍 GeoFinder — Application de Géocaching (Version Web)
+
+GeoFinder est une application web qui permet aux utilisateurs d'ajouter, localiser, commenter et marquer comme trouvées des géocaches autour d'eux. Elle inclut également un système de classement des utilisateurs et des caches.
+
+---
+
+## 🚀 Fonctionnalités principales
+
+- 🔐 Authentification (inscription & connexion JWT)
+- 🗺️ Carte interactive (Leaflet) avec position utilisateur + géocaches
+- 🗃️ Ajout, édition et suppression de géocaches
+- 💬 Système de commentaires
+- ✅ Marquage des caches comme trouvées
+- 🏆 Classement :
+  - Meilleurs utilisateurs
+  - Caches les plus populaires
+  - Caches les plus rares
+
+---
+
+## 📁 Structure du projet
+
+```bash
+client/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Map.js
+│   │   ├── CommentList.js
+│   │   └── ProtectedRoute.js
+│   ├── screens/
+│   │   ├── Login.js
+│   │   ├── Register.js
+│   │   ├── Profile.js
+│   │   ├── MyGeocaches.js
+│   │   ├── AddGeocache.js
+│   │   ├── EditGeocache.js
+│   │   └── Classement.js (+ variantes)
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+
+serveur/
+├── app.js                     # Point d'entrée de l'application
+├── middleware/                # Middlewares personnalisés (authentification JWT, erreurs)
+│   └── auth.js
+├── models/                    # Modèles Mongoose (User, Geocache, etc.)
+│   ├── User.js
+│   └── Geocache.js
+├── routes/                    # Routes principales
+│   ├── authRoutes.js
+│   ├── geocacheRoutes.js
+│   └── leaderboardRoutes.js
+├── package.json
+├── package-lock.json
+└── node_modules/
+```
+
 Ce projet a été réalisé par Salma et Zineb. Voici leurs contributions respectives :
 Salma :
 
@@ -30,4 +91,4 @@ Zineb :
 
         Développement des composants d'interface utilisateur pour gérer l'affichage et la mise à jour des informations.
 
-        
+
